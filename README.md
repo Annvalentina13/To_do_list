@@ -1,16 +1,47 @@
-# 📝 To-Do List App (GUI using Tkinter & Pandas)
+# ✅ To-Do List App with Task Status (Python Tkinter)
 
-This is a simple desktop To-Do List application built with **Python**, using the **Tkinter** library for the graphical user interface and **Pandas** for data storage and manipulation.
+A clean and functional **To-Do List GUI application** built using Python and **Tkinter**, which allows users to add tasks, mark them as complete, and delete them — with visual status indicators.
 
-## 🚀 Features
+---
 
-- Add new tasks
-- Mark tasks as complete
-- Delete tasks
-- Tasks are saved to a CSV file for persistence
+## 🖥️ Demo Preview
 
-## 🛠 Requirements
+📝 Input a task → ✅ Mark as complete → ❌ Delete when done
 
-- Python 3.x
-- pandas
-- tkinter (included with standard Python installations)
+---
+
+## ✨ Features
+
+- ➕ Add new tasks
+- ✅ Mark tasks as **Complete**
+- ❌ Delete selected tasks
+- 📋 View task list with **status labels**
+- 🧠 Simple list storage with real-time UI updates
+- 🎨 Styled UI using fonts, colors, and layout for better experience
+
+---
+
+## 🛠️ Technologies Used
+
+- ✅ Python 3.x  
+- 🖼️ Tkinter (for GUI)  
+- 🧠 List & tuple manipulation  
+- 🎨 Custom fonts and color themes  
+
+---
+
+## 📂 Project Structure
+
+- todo_list_app/
+- ├── todo_list_app.py
+- ├── README.md
+
+---
+
+## 🧭 UI Overview
+- 🎯 Entry Box — Type your task
+- ✅ Add Task — Adds to the list
+- ✏️ Mark Complete — Changes status label to "Complete"
+- ❌ Delete Task — Removes task from list
+- 📋 List Box — Shows all tasks and their status side-by-side
+
